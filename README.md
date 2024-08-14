@@ -1,1 +1,1 @@
-# jigyoshokei3
+# lp-html-css-tutorial-pc-sp
