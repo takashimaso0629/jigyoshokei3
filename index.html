@@ -13,7 +13,13 @@
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
   </head>
 
-  <body id="container">
+  <body>
+    <div id="splash">
+      <div id="splash-logo">LOADING...</div>
+      <!--/splash--></div>
+    <div class="splashbg"></div><!---画面遷移用-->
+
+  <div id="container">
     <!-- ヘッダー -->
     <header id="header">
       <h1 class="site-title"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">
@@ -52,26 +58,30 @@
       <!-- メインビジュアル -->
       <div id="mainvisual">
         <picture>
-          <source media="(max-width: 600px)" srcset="./img/main-sp.jpg">
-          <img src="img/main-pc.jpg" alt="テキストテキストテキスト">
+          <source media="(max-width: 600px)" srcset="./img/jigyo_bg.jpg">
+          <img src="img/jigyo_bg.jpg" alt="テキストテキストテキスト">
         </picture>
       </div>
 
-      <div class="scrolldown1"><span>Scroll</span></div>
+      <div id="scrolldown">
+        <div class="scrolldown1"><span>Scroll</span>
+        </div>
+      </div>
 
       <!-- About -->
       <section id="about" class="wrapper">
-        <h2 class="sec-title">事業承継に興味のある方へ<span>THOSE WHO ARE INTERESTED IN BUSINESS SUCCESSION</span></h2>
+        <h2 class="sec-title"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">事業承継に興味のある方へ</span></span><div class="eng"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">THOSE WHO ARE INTERESTED IN BUSINESS SUCCESSION</span></span></div></h2>
         <h3></h3>
         <p>
           事業承継の成功は、将来の安定と継続的な発展に直結します。経営者の方々にとって、ビジネスのバトンタッチは慎重な計画とスムーズな移行が不可欠です。事業の礎を築いた先代の経験と知識を尊重し、それを次世代に引き継ぐことが、持続可能な成長の鍵となります。
         </p>
+        <a href="#" class="btn03 pushright"><span>事業承継する</span></a>
       </section>
       
       <!-- Contents -->
       <section id="contents" class="wrapper-contents">
 
-      <h2 class="sec-title"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger"></span>Contents</spam></span></h2>
+      <h2 class="sec-title"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">Contents</spam></span></h2>
       <section class="contents-area flex flex-wrap justify-between">
       <figure class="img"><img src="./img/works4.jpg" alt=""></figure>
       <div class="content">
@@ -82,8 +92,6 @@
           </div>
       </div>
       </section>
-
-      <a href="#" class="btn03 pushright"><span>7-1-16 右下に押し込まれる（立体が平面に）</span></a>
 
       <section class="contents-area flex flex-wrap justify-between">
         <figure class="img"><img src="./img/works4.jpg" alt=""></figure>
@@ -145,10 +153,8 @@
         </form>
       </section> 
 
-     
-    </picture>
-  </div>
     </main>
+  </div>
 
      <!-- Footer -->
     <footer id="footer">
@@ -185,7 +191,7 @@
         </ul>
       </nav>
     </footer>
-
+  
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollgress/2.0.0/scrollgress.min.js"></script>
   <script src="js/script.js"></script>
