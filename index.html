@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/function.css" />
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
   </head>
 
@@ -19,9 +20,24 @@
       <!--/splash--></div>
     <div class="splashbg"></div><!---画面遷移用-->
 
-  <div id="container">
+  <!--<div id="container"> -->
+    <header id="header" class="DownMove">
+      <h1 class="site-title"><a href="#">
+        事業承継で経済の循環
+      </a></h1>
+      <nav>
+      <ul class="gnavi">
+        <li class="current"><a href="#">HOME</a></li>
+        <li><a href="#area-1">事業承継とは</a></li>
+        <li><a href="#area-2">研究内容</a></li>
+        <li><a href="#area-3">事業承継する</a></li>
+        <li><a href="#area-4">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    </header>
+
     <!-- ヘッダー -->
-    <header id="header">
+ <!--- <header id="header">
       <h1 class="site-title"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">
         <a href="#">
           事業承継で経済の循環
@@ -41,15 +57,18 @@
         </ul>
       </nav>
     </header>
+  -->  
 
     <div class="openbtn1"><p>MENU</p><span></span><span></span><span></span></div>
     <nav id="g-nav">
     <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
     <ul>
-    <li><a href="#">Top</a></li>  
-    <li><a href="#">About</a></li>  
-    <li><a href="#">Service</a></li>  
-    <li><a href="#">Contact</a></li>  
+    <li><a href="#">HOME</a></li>  
+    <li><a href="#">事業承継とは</a></li>  
+    <li><a href="#">研究内容</a></li>  
+    <li><a href="#">事業承継する</a></li>
+    <li><a href="#">お問い合わせ</a></li> 
+    <li><a href="#">サイトマップ</a></li>  
     </ul>
     </div>
     </nav>
@@ -61,13 +80,18 @@
           <source media="(max-width: 600px)" srcset="./img/jigyo_bg.jpg">
           <img src="img/jigyo_bg.jpg" alt="テキストテキストテキスト">
         </picture>
+          <p class="top-lead"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">Revolutionizing</span></span><br><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">Japan's</span></span><br><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">Economy</span></span></p>
       </div>
+
 
       <div id="scrolldown">
         <div class="scrolldown1"><span>Scroll</span>
         </div>
       </div>
 
+
+      <section id="area-2"><!--Area2まできたらheaderが消え、上にスクロールすると復活します。-->
+        <!--/area2--></section>
       <!-- About -->
       <section id="about" class="wrapper">
         <h2 class="sec-title"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">事業承継に興味のある方へ</span></span><div class="eng"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">THOSE WHO ARE INTERESTED IN BUSINESS SUCCESSION</span></span></div></h2>
@@ -77,18 +101,20 @@
         </p>
         <a href="#" class="btn03 pushright"><span>事業承継する</span></a>
       </section>
-      
+
+
       <!-- Contents -->
       <section id="contents" class="wrapper-contents">
 
-      <h2 class="sec-title"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">Contents</spam></span></h2>
+      <h2 class="sec-title-contents"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">CONTENTS</spam></span></h2>
+      <div class="eng-contents"><h2>コンテンツ</h2></div>
       <section class="contents-area flex flex-wrap justify-between">
       <figure class="img"><img src="./img/works4.jpg" alt=""></figure>
       <div class="content">
           <div class="content-area">
-          <h3><span>WHAT IS BUSINESS SUCCESSION?</span>事業承継とは</h3>
+          <h3><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger"><span>WHAT IS BUSINESS SUCCESSION?</span></span></span>事業承継とは</h3>
           <p>事業承継の定義、意義について説明します。</p>
-          <div class="btn"><a href="" class="btnlinestretches3"><span>Detail</span></a></div>
+          <div class="btn2"><a href="" class="btn bgleft"><span>Detail</span></a></div>
           </div>
       </div>
       </section>
@@ -97,9 +123,9 @@
         <figure class="img"><img src="./img/works4.jpg" alt=""></figure>
         <div class="content">
             <div class="content-area">
-            <h3><span>RESEARCH CONTENT</span>研究内容</h3>
+            <h3><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger"><span>RESEARCH CONTENT</span></span></span>研究内容</h3>
             <p>私たちの研究について説明します。</p>
-            <div class="btn"><a href="" class="btnlinestretches3"><span>Detail</span></a></div>
+            <div class="btn2"><a href="" class="btn bgleft"><span>Detail</span></a></div>
             </div>
         </div>
         </section>
@@ -135,9 +161,58 @@
           <dd>ShinCodeの鬱病が少し改善しました。再発予防が大事です。</dd>
         </dl>
       </section>
+      </section>
+
+
+      <article id="news1">
+        <h2 class="flipRightTopTrigger flipRightTop"><span>News</span>お知らせ</h2>
+        <div class="news-area zoomInTrigger zoomIn">
+        <ul class="list-news">
+        <li><a href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/1-3/1-3.html#">
+        <article>
+        <time datetime="2021-08-09">2021.08.09</time>
+        <h3>夏期講習がスタートしました</h3>
+        </article>
+        </a></li>
+        <li><a href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/1-3/1-3.html#">
+        <article>
+        <time datetime="2021-04-11">2021.04.11</time>
+        <h3>春の入塾募集キャンペーンがスタート</h3>
+        </article>
+        </a></li>
+        <li><a href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/1-3/1-3.html#">
+        <article>
+        <time datetime="2020-11-09">2020.11.09</time>
+        <h3>センター試験対策講座を行いました</h3>
+        </article>
+        </a></li>
+        <li><a href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/1-3/1-3.html#">
+        <article>
+        <time datetime="2020-07-10">2020.07.10</time>
+        <h3>夏のすぎやまゼミ合宿が行われました</h3>
+        </article>
+        </a></li>
+        </ul>
+        <!--/top-news-area--></div>
+        <div class="icon-01 zoomInTrigger zoomIn"><img src="./1-3 キッズサイト_files/ico_01.png" alt="" class="apng-image"></div>
+        <div class="icon-02 zoomInTrigger zoomIn"><img src="./1-3 キッズサイト_files/ico_02.png" alt="" class="apng-image"></div>
+        <div class="icon-03 zoomInTrigger zoomIn"><img src="./1-3 キッズサイト_files/ico_03.png" alt="" class="apng-image"></div>
+        <div class="icon-04 zoomInTrigger zoomIn"><img src="./1-3 キッズサイト_files/ico_04.png" alt="" class="apng-image"></div>
+        </article>
+
       <!-- Contact -->
       <section id="contact" class="wrapper">
-        <h2 class="sec-title">Contact</h2>
+        <h2 class="sec-title-contents"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">CONTACT</span></span></h2>
+        <div class="eng-contents"><h2>お問い合わせ</h2></div>
+        <p>ウェブ、事業承継についてのお問い合わせはこちらから。<br>お気軽にご相談ください。   
+        </p>
+          <a href="#" class="btn03 pushright"><span>お問い合わせはこちら</span></a>
+      </section> 
+
+      <!-- Contact -->
+      <section id="contact" class="wrapper">
+        <h2 class="sec-title-contents"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">CONTACT</span></span></h2>
+        <div class="eng-contents"><h2>お問い合わせ</h2></div>
         <p>お問い合わせは以下のフォームから
         </p>
         <form action="#" method="post">
@@ -191,7 +266,7 @@
         </ul>
       </nav>
     </footer>
-  
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollgress/2.0.0/scrollgress.min.js"></script>
   <script src="js/script.js"></script>
