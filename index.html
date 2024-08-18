@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/function.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
   </head>
 
   <body>
@@ -60,7 +63,7 @@
     </header>
   -->  
 
-    <div class="openbtn1"><p>MENU</p><span></span><span></span><span></span></div>
+    <div class="openbtn1"><p></p><span></span><span></span><span></span></div>
     <nav id="g-nav">
     <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
     <ul>
@@ -81,7 +84,8 @@
           <source media="(max-width: 600px)" srcset="./img/jigyo_bg.jpg">
           <img src="img/jigyo_bg.jpg" alt="テキストテキストテキスト">
         </picture>
-          <p class="top-lead"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">Revolutionizing</span></span><br><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">Japan's</span></span><br><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">Economy</span></span></p>
+          <p class="top-lead-eng"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">Revolutionizing</span></span><br><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">Japan's</span></span><br><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">Economy</span></span></p>
+          <p class="top-lead-jpn">日本経済に「革命」を。<br>事業承継の研究と実行の融合サイト</span></span></p>
       </div>
 
 
@@ -109,23 +113,23 @@
       <h2 class="sec-title-contents"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">CONTENTS</spam></span></h2>
       <div class="eng-contents"><h2>コンテンツ</h2></div>
       <section class="contents-area flex flex-wrap justify-between">
-      <figure class="img"><img src="./img/works4.jpg" alt=""></figure>
+      <figure class="img"><img src="./img/img02.jpg" alt=""></figure>
       <div class="content">
           <div class="content-area">
           <h3><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger"><span>WHAT IS BUSINESS SUCCESSION?</span></span></span>事業承継とは</h3>
           <p>事業承継の定義、意義について説明します。</p>
-          <div class="btn2"><a href="" class="btn bgleft"><span>Detail</span></a></div>
+          <div class="btn2"><a href="" class="btn bgleft"><span>詳細はこちら</span></a></div>
           </div>
       </div>
       </section>
 
       <section class="contents-area flex flex-wrap justify-between">
-        <figure class="img"><img src="./img/works4.jpg" alt=""></figure>
+        <figure class="img"><img src="./img/img03.jpg" alt=""></figure>
         <div class="content">
             <div class="content-area">
             <h3><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger"><span>RESEARCH CONTENT</span></span></span>研究内容</h3>
             <p>私たちの研究について説明します。</p>
-            <div class="btn2"><a href="" class="btn bgleft"><span>Detail</span></a></div>
+            <div class="btn2"><a href="" class="btn bgleft"><span>詳細はこちら</span></a></div>
             </div>
         </div>
         </section>
@@ -205,7 +209,7 @@
         <h2 class="sec-title"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">事業承継に興味のある方へ</span></span><div class="eng"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">THOSE WHO ARE INTERESTED IN BUSINESS SUCCESSION</span></span></div></h2>
         <h3></h3>
         <p>
-          事業承継の成功は、将来の安定と継続的な発展に直結します。経営者の方々にとって、ビジネスのバトンタッチは慎重な計画とスムーズな移行が不可欠です。事業の礎を築いた先代の経験と知識を尊重し、それを次世代に引き継ぐことが、持続可能な成長の鍵となります。
+          事業承継の成功は、将来の安定と継続的な発展に直結します。<br>経営者の方々にとって、ビジネスのバトンタッチは慎重な計画とスムーズな移行が不可欠です。<br>事業の礎を築いた先代の経験と知識を尊重し、それを次世代に引き継ぐことが、持続可能な成長の鍵となります。
         </p>
         <a href="#" class="btn03 pushright"><span>事業承継する</span></a>
       </section>
@@ -297,6 +301,7 @@
     ScrollReveal().reveal(".eng-contents", { delay: 100, distance: "60px", origin: "left" });
     ScrollReveal().reveal(".img", { delay: 200, distance: "80px", origin: "top" });
     ScrollReveal().reveal(".content", { delay: 200, distance: "80px", origin: "bottom" });
+    ScrollReveal().reveal(".wrapper-execute", { delay: 0, distance: "200px", origin: "left" });
 </script>
   <script src="js/script.js"></script>
   </body>
