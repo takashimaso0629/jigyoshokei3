@@ -269,6 +269,19 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollgress/2.0.0/scrollgress.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({
+      reset: true,
+      duration: 1000
+    });
+    ScrollReveal().reveal(".top-lead", {reset: true, delay: 350, distance: "60px", origin: "left" });
+    ScrollReveal().reveal(".sec-title", { delay: 100, distance: "60px", origin: "left" });
+    ScrollReveal().reveal(".sec-title-contents", { delay: 100, distance: "60px", origin: "left" });
+    ScrollReveal().reveal(".eng-contents", { delay: 100, distance: "60px", origin: "left" });
+    ScrollReveal().reveal(".img", { delay: 200, distance: "80px", origin: "top" });
+    ScrollReveal().reveal(".content", { delay: 200, distance: "80px", origin: "bottom" });
+</script>
   <script src="js/script.js"></script>
   </body>
 </html>
