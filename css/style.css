@@ -83,14 +83,14 @@ li {
 }
 
 .sec-title {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   text-align: center;
   margin-bottom: 65px;
   color:#0481A2;
 }
 
 .sec-title-contents {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   text-align: center;
   color:#0481A2;
 }
@@ -143,7 +143,6 @@ Mainvisual
 #mainvisual {
   position: relative;
   margin-bottom: 80px;
-  -webkit-text-stroke: 0.5px #000;
 }
 
 #mainvisual img {
@@ -154,15 +153,29 @@ Mainvisual
 }
 
 /* lead */
-#mainvisual p {
+#mainvisual .top-lead-eng {
   position: absolute;
-  color: white;/*文字は白に*/
-  font-weight: bold; /*太字に*/
+  color: #182578;/*文字は白に*/
+  font-family: "Lato", sans-serif;
+  font-weight: 800; /*太字に*/
   font-size: 3rem;/*サイズ2倍*/
-  top: 50%;
+  top: 40%;
+  left: 5%;
+  line-height: 1.5;
+  -webkit-text-stroke: 0.8px #fff;
+  }
+
+#mainvisual .top-lead-jpn {
+  position: absolute;
+  color: #182578;/*文字は白に*/
+  font-family: "Lato", sans-serif;
+  font-weight: 900; /*太字に*/
+  font-size: 1.5rem;/*サイズ2倍*/
+  top: 78%;
   left: 5%;
   text-transform: uppercase;
   line-height: 1.5;
+  -webkit-text-stroke: 0.3px #fff;
   }
 
 
@@ -209,7 +222,7 @@ About
 #about p {
   text-align: center;
   padding: 4%;
-  font-size: 1.0rem;
+  font-size: 1.2rem;
 }
 
 
@@ -270,7 +283,7 @@ contents
 }
 
 #contents .contents-area .content{
- width:40%;
+ width:45%;
  max-height: 400px;
  background:#fff;
  box-shadow: 0 0 20px #ccc;
@@ -282,12 +295,13 @@ contents
 }
 
 #contents .contents-area .content-area{
-  padding:40px;   
+  padding:20px;   
+  text-align: center;
 }
 
 #contents .contents-area .content-area h3{
    text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0 0 30px 0;
 }
 
@@ -295,7 +309,7 @@ contents
   font-weight: bold;
   text-transform: uppercase;
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 #contents .contents-area .content-area p{
@@ -364,8 +378,8 @@ Execute
 -------------------------------------------*/
 #execute {
   margin-top: 200px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   text-align: center;
   color:#fff;
 }
@@ -373,7 +387,7 @@ Execute
 #execute .sec-title {
   font-size: 2.4rem;
   text-align: center;
-  margin-bottom: 65px;
+  margin-bottom: 30px;
   color:#fff;
 }
 
@@ -398,9 +412,9 @@ Execute
 }
 
 #execute p {
-  text-align: justify;
+  text-align: center;
   padding: 4%;
-  font-size: 1.0rem;
+  font-size: 1.1rem;
 }
 
 
