@@ -16,6 +16,7 @@ html {
 body {
   color: #24292e;
   font-family: "Sawarabi Gothic";
+  background-color: #f0f0f0;
 }
 
 a {
@@ -51,6 +52,16 @@ li {
   font-size: 0.9rem;
   padding: 0 4%;
 }
+
+/* execute用wrapper */
+.wrapper-execute {
+  background-color: #333;
+  margin: 0 0 130px 0;
+  width:100%;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+
 
 .site-title {
   font-weight: 500;
@@ -130,29 +141,29 @@ header li a {
 Mainvisual
 -------------------------------------------*/
 #mainvisual {
+  position: relative;
   margin-bottom: 80px;
-  color: #fff;
   -webkit-text-stroke: 0.5px #000;
 }
 
 #mainvisual img {
   width: 100%;
-  max-width: 1920px;
-  height: 550px;
   margin-top: 70px;
+  height: 550px;
   object-fit: cover;
 }
 
 /* lead */
-.top-lead{
+#mainvisual p {
   position: absolute;
-  bottom:30%;
-  left:5%;
-  font-size:3rem;
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 3rem;/*サイズ2倍*/
+  top: 50%;
+  left: 5%;
   text-transform: uppercase;
-  font-weight: bold;
   line-height: 1.5;
-}
+  }
 
 
 /*-------------------------------------------
@@ -169,7 +180,10 @@ About
 -------------------------------------------*/
 #about {
   margin-top: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
+  color:#000;
 }
 
 #about .sec-title .eng{
@@ -193,7 +207,7 @@ About
 }
 
 #about p {
-  text-align: justify;
+  text-align: center;
   padding: 4%;
   font-size: 1.0rem;
 }
@@ -343,6 +357,54 @@ News
   border-bottom: solid 1px #c8c8c8;
   padding: 15px;
 }
+
+
+/*-------------------------------------------
+Execute
+-------------------------------------------*/
+#execute {
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color:#fff;
+}
+
+#execute .sec-title {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 65px;
+  color:#fff;
+}
+
+#execute .sec-title .eng{
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  font-size: 1.2rem;
+  color: #fff;
+ }
+
+#execute ul {
+  margin-bottom: 30px;
+}
+
+#execute ul li {
+  margin-bottom: 3px;
+}
+
+#execute ul li:first-child {
+  margin-bottom: 30px;
+}
+
+#execute p {
+  text-align: justify;
+  padding: 4%;
+  font-size: 1.0rem;
+}
+
+
+
 
 /*-------------------------------------------
 Contact
@@ -557,10 +619,24 @@ SP
     font-size: 1.5rem;
     margin-bottom: 40px;
   }
-  
+
   .sec-title-contents {
     font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  #execute .sec-title {
+    font-size: 1.5rem;
     margin-bottom: 20px;
+  }
+
+  .sec-title-execute {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  #mainvisual p{
+    font-size: 2rem;
   }
 
     /*about*/
@@ -594,6 +670,15 @@ SP
     padding-top: 0;
   }
 
+    /*execute*/
+    #execute .eng span {
+      font-size: 1rem;
+    }
+
+    #execute p {
+      font-size: 0.8rem;
+    }
+
   /* contact */
   #contact dl {
     flex-direction: column;
@@ -609,6 +694,18 @@ SP
 
   #contact p {
     font-size: 0.8rem;
+  }
+
+  #footer{
+    height: 400px;
+  }
+
+  #footer ul{
+    margin-left: 0;
+  }
+
+  #footer .list{
+    display: none;
   }
 }
 
@@ -772,5 +869,3 @@ SP
     left:50px;
     width: 100px;
 }
-
-
