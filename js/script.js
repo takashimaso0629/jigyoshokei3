@@ -13,9 +13,9 @@ function PageTopAnime() {
     }
     
     var wH = window.innerHeight; //画面の高さを取得
-    var footerPos =  $('#footer').offset().top; //footerの位置を取得
+    var footerPos =  $('#f-bottom').offset().top; //footerの位置を取得
     if(scroll+wH >= (footerPos+10)) {
-      var pos = (scroll+wH) - footerPos+10 //スクロールの値＋画面の高さからfooterの位置＋10pxを引いた場所を取得し
+      var pos = (scroll+wH) - footerPos+50 //スクロールの値＋画面の高さからfooterの位置＋10pxを引いた場所を取得し
       $('#page-top').css('bottom',pos); //#page-topに上記の値をCSSのbottomに直接指定してフッター手前で止まるようにする
     }else{//それ以外は
       if($('#page-top').hasClass('UpMove1')){//UpMoveというクラス名がついていたら
