@@ -84,6 +84,17 @@
     transform: translateY(100px);
   }
   
+  @media screen and (max-width: 600px) {
+    #page-top a{
+        width: 48px;
+        height: 48px;
+    }
+
+    #page-top {
+        right: -15px;
+    } 
+  }
+
   /*　上に上がる動き　*/
   
   #page-top.UpMove1{

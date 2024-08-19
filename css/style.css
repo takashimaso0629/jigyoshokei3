@@ -749,6 +749,8 @@ SP
 
   #footer p {
     font-size: 0.8rem;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 
