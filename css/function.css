@@ -704,8 +704,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background:#333;
-  color:#fff;
+  background:rgba(240, 249, 253, 0.9);
+  color:#333;
   text-align: center;
   padding: 20px;
 }
@@ -761,7 +761,7 @@
 
 #header small{
   background:#333;
-  color:#fff;
+  color:#333;
   display: block;
   text-align: center;
   padding:20px;
@@ -778,15 +778,15 @@
 #header nav ul li a{
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: #333;
   padding:10px;
   transition:all 0.3s;
-  font-size: 1.0rem;
+  font-size: 1.1rem;
   margin-right: 20px;
 }
 
 #header a:hover {
-    opacity: 0.5;
+    opacity: 0.8;
     transition:all 0.3s;
   }
 

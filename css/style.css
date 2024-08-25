@@ -15,7 +15,7 @@ html {
 
 body {
   color: #24292e;
-  font-family: "Sawarabi Gothic";
+  font-family: "Noto Sans JP";
   background-color: #f0f0f0;
 }
 
@@ -65,11 +65,12 @@ li {
 
 .site-title {
   font-weight: 500;
-  font-size: 2.0rem;
+  font-size: 2.3rem;
 }
 
 .site-title a {
-  color:#fff;
+  color:#333;
+  margin-bottom: 5px;
 }
 
 .site-title-footer {  
@@ -83,14 +84,14 @@ li {
 }
 
 .sec-title {
-  font-size: 2.6rem;
+  font-size: 3.8rem;
   text-align: center;
   margin-bottom: 65px;
   color:#0481A2;
 }
 
 .sec-title-contents {
-  font-size: 2.6rem;
+  font-size: 3.3rem;
   text-align: center;
   color:#0481A2;
 }
@@ -147,8 +148,8 @@ Mainvisual
 
 #mainvisual img {
   width: 100%;
-  margin-top: 70px;
-  height: 550px;
+  margin-top: 0px;
+  height: 680px;
   object-fit: cover;
 }
 
@@ -205,7 +206,7 @@ About
   font-weight: bold;
   text-transform: uppercase;
   display: block;
-  font-size: 1.2rem;
+  font-size: 2.0rem;
   color: #000;
  }
 
@@ -246,7 +247,7 @@ contents
   text-transform: uppercase;
   text-align: center;
   display: block;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: #000;
   margin:0 0 100px 0;
  }
@@ -681,6 +682,14 @@ SP
     font-size: 1.5rem;
     margin-bottom: 40px;
   }
+
+  #about .sec-title .eng{
+    font-size: 1.0rem;
+   }
+
+  .eng-contents{
+    font-size: 0.9rem;
+   }
   
   #execute .sec-title {
     font-size: 1.5rem;
@@ -706,8 +715,10 @@ SP
 
     /*about*/
     #about p {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
     }
+
+    /*contents*/
 
 
     /* works */
@@ -758,7 +769,7 @@ SP
   }
 
   #contact p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   #footer{
