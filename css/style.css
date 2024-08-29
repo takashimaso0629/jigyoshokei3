@@ -62,7 +62,6 @@ li {
   padding: 0 4%;
 }
 
-
 .site-title {
   font-weight: 500;
   font-size: 2.3rem;
@@ -95,47 +94,6 @@ li {
   text-align: center;
   color:#0481A2;
 }
-
-
-/*----------------------------------------------
-ヘッダー
-------------------------------------------------*/
-/*#header {
-  max-width: 960px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 170px;
-  margin: 0 auto;
-  padding: 0 4%;
-}
-
-#header ul {
-  display: flex;
-  padding: 10px 0;
-  align-items: center;
-}
-
-#header li {
-  font-size: 0.9rem;
-  margin-left: 30px;
-}
-
-header li a {
-  color: #24292e;
-  transition: all 0.3s;
-}
-
-#header li a:hover {
-  opacity: 0.5;
-}
-
-#header li img.icon {
-  width: 30px;
-}
-
-
-*/
 
 
 /*-------------------------------------------
@@ -427,7 +385,7 @@ Execute
 Contact
 -------------------------------------------*/
 #contact  {
-  margin-top: 250px;
+  margin-top: 50px;
   margin-bottom: 250px;
   text-align: center;
 }
@@ -444,11 +402,13 @@ Contact
 }
 
 #contact dt {
-  width: 15%;
+  font-size: 1.0rem;
+  width: 20%;
 }
 
 #contact dd {
-  width: 85%;
+  font-size: 1.0rem;
+  width: 75%;
   margin-bottom: 10px;
 }
 
@@ -461,6 +421,14 @@ Contact
 
 #contact dd textarea {
   height: 10rem;
+}
+
+#contact dd select {
+  border: solid 1px #c8c8c8;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s;
 }
 
 #contact .button {
