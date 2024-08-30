@@ -200,6 +200,11 @@
   letter-spacing: 0.1em;
   font-weight: bold;
   }
+
+  #g-nav li a:hover {
+    opacity: 0.8;
+    transition:all 0.3s;
+  }
   
   /*========= ボタンのためのCSS ===============*/
   .openbtn1{
