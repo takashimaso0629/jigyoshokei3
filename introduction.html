@@ -4,7 +4,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>事業承継サイト | 事業承継する</title>
+    <title>事業承継サイト | サイト説明</title>
     <meta name="description" content="事業承継" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -16,6 +16,9 @@
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&amp;family=Noto+Sans+TC:wght@400;500;700;900&amp;family=Noto+Sans+SC:wght@400;500;700;900&amp;display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" defer type="text/javascript"></script>
 
   </head>
 
@@ -32,7 +35,7 @@
         <li><a href="./index.html">HOME</a></li>
         <li><a href="./whatis.html">事業承継とは</a></li>
         <li><a href="./research.html">研究内容</a></li>
-        <li class="current"><a href="./execute.html">事業承継する</a></li>
+        <li><a href="./execute.html">事業承継する</a></li>
         <li><a href="./contact.html">お問い合わせ</a></li>
       </ul>
     </nav>
@@ -47,91 +50,110 @@
     <li><a href="./whatis.html">事業承継とは</a></li>  
     <li><a href="./research.html">研究内容</a></li>  
     <li><a href="./execute.html">事業承継する</a></li>
-    <li><a href="./contact.html">お問い合わせ</a></li> 
-    <li><a href="./introduction.html">サイト説明</a></li>
-    <li><a href="./sitemap.html">サイトマップ</a></li>  
+    <li><a href="./contact.html">お問い合わせ</a></li>
+    <li><a href="./introduction.html">サイト説明</a></li>   
+    <li><a href="./sitemap.html">サイトマップ</a></li>
     </ul>
     </div>
     </nav>
 
     <main>
-
-      
       <!--高さ調整-->
       <div id="white">
       </div>
 
       <!-- title -->
       <div id="title-bar">
-        <h1>事業承継する</h1>
+        <h1>サイト説明</h1>
       </div>
-      
-      <section class="maintext">
-        <p>あなたの承継したい会社の情報をご入力いただきますと、その情報をX(旧Twitter)で発信いたします。<br>X(旧Twitter)で発信いたしました際にご記入のメールアドレス宛にご連絡致します。<br>あなたの会社に興味のある人がいらっしゃれば再度ご記入のメールアドレス宛にご連絡致します。
-        </p>
-      </section>
   
-      <br><br>
-   
-      <!-- 使用例 -->
-      <div id="02"></div>
+      <!-- 目次 -->
       <div id="title-bar2">
-        <h2>使用例</h2>
+        <h2>目次</h2>
       </div>
-  
+
       <section class="maintext">
-        <div class="center">
-          <img src="img/img74.png" width="850"height="550" alt="">
+        <div class="table">
+        <ul><strong>
+        <li><a href="#01">01.サイト作成の動機</a></li>
+        <li><a href="#02">02.各ページ説明</a></li>
+        </ul></strong>
         </div>
       </section>
 
-      <br><br><br><br>
-
-       <!-- フォーム -->
+      <br><br>
+  
+      <!-- 01.サイト作成の動機 -->
+	  <div id="01"></div>
       <div id="title-bar2">
-        <h2>事業承継フォーム</h2>
+        <h2>01.サイト作成の動機</h2>
       </div>
-       <section id="contact" class="wrapper">
-        <p>以下のフォームに企業の情報を入力してください。<br>※本サイトは模擬サイトのため実際に送信することはできません。
-        </p>
-        <form action="#" method="post">
-          <dl>
-            <dt><label for="name">氏名</label></dt>
-            <dd><input type="text" id="name" placeholder="例）山田 太郎"></dd>
-            <dt><label for="phone">電話番号</label></dt>
-            <dd><input type="phone" id="phone" placeholder="例）012-345-6789"></dd>
-            <dt><label for="email">メールアドレス</label></dt>
-            <dd><input type="email" id="email" placeholder="例）sample@mail.com"></dd>
-            <dt><label for="coname">会社名</label></dt>
-            <dd><input type="coname" id="coname" placeholder="例）株式会社〇〇"></dd>
-            <dt><label for="address1">都道府県</label></dt>
-            <dd><input type="address1" id="address1" placeholder="例）兵庫県"></dd>
-            <dt><label for="address2">市区町村</label></dt>
-            <dd><input type="address2" id="address2" placeholder="例）姫路市"></dd>
-            <dt><label for="kind">業種</label></dt>
-            <dd><select name="kind">
-                  <option value="0" selected>クリックして選択</option>
-                  <option value="1">製造業</option><option value="2">運輸・通信業</option><option value="3">漁業</option>
-                  <option value="4">電気・ガス</option><option value="5">広告・出版・マスコミ</option><option value="6">金融・保険業</option>
-                  <option value="7">卸売・小売・飲食業</option><option value="8">建設業</option><option value="9">農林・水産業</option>
-                  <option value="10">鉱業</option><option value="11">サービス</option><option value="12">不動産業</option><option value="13">その他</option>
-                </select>
-            </dd>
-            <dt><label for="other"></label></dt>
-            <dd><input type="other" id="other" placeholder="「その他」を選択した方のみ入力"></dd>
-            <dt><label for="number">従業員規模</label></dt>
-            <dd><select name="number">
-                  <option value="0" selected>クリックして選択</option>
-                  <option value="1">1~10人</option><option value="2">11~100人</option><option value="3">101~1000人</option>
-                  <option value="4">1001~10000人</option><option value="5">10001人~</option>
-                </select>
-            </dd>
-            <dt><label for="name">フリーコメント</label></dt>
-            <dd><textarea id="content" cols="30" rows="10" placeholder="例）「次代を担う若い人材に継いで欲しいと考えています。」"></textarea></dd>
-          </dl>
-          <div class="button"><input type="submit" value="送信"></div>
-        </form>
-      </section> 
+      
+      <section class="maintext">
+        <p>私たちは日本の国際競争力（IMD「世界競争力年鑑」より）の順位が年々低下していることを危惧し、本研究にとりかかりました。
+        </p><br>
+        <p>かつては 1 位を誇った日本企業の国際競争力は過去の栄光となり、今は長期の低迷期にあります。私たちは<strong class="marker_yellow">日本の国際競争力を上げるための有効なアプローチを発見する</strong>ため、先行研究より経済の問題点を見つけ、その問題を解決するための改善方法を分析しました。
+        </p><br>
+        <p>研究結果(「研究内容」参照)から、私たちは若年層というキーワードを考えたときサイトやSNSの利用に注目しました。そこで私たちは若者の事業承継に接するハードルを下げるべく、<strong class="marker_yellow">SNSを事業承継の当事者同士が繋がる場として活用</strong>していきたいと考えました。​
+        </p><br>
+        <p>そこで、<font color="#478aff"><b>＃事業承継したい</b><font color="black">　を新たに創出​し、そのハッシュタグを検索することで<strong class="marker_yellow">事業承継されたい人としたい人を結び付けられるシステムの構築</strong>を目指す​ことにしました。
+        </p><br>
+        <p>最終的に私たちは私たちの研究結果を認知してもらい、高齢であることが多い元社長のSNS利用を代行するための模擬サイトを構築することにし、このサイトを作りました。
+        </p><br>
+
+      </section>
+  
+      <br><br>
+  
+      <!-- 02.各ページ説明 -->
+	  <div id="02"></div>
+      <div id="title-bar2">
+        <h2>02.各ページ説明</h2>
+      </div>
+  
+      <section class="maintext">
+        <p><strong class="marker_yellow">HOME</strong>・・・トップページです。ヘッダー左上のリンクを押下することでも移動できます。
+        </p><br>
+        <div class="center">
+          <a href="img/img75.png" data-lightbox="group"><img src="img/img75.png" width="750"height="380" alt=""></a>
+        </div>
+        <br>
+        <p><strong class="marker_yellow">事業承継とは</strong>・・・事業承継の定義や意義、手順について紹介したページです。
+        </p><br>
+        <div class="center">
+          <a href="img/img76.png" data-lightbox="group"><img src="img/img76.png" width="750"height="380" alt=""></a>
+        </div>
+        <br>
+        <p><strong class="marker_yellow">研究内容</strong>・・・研究内容を紹介したページです。
+        </p><br>
+        <div class="center">
+          <a href="img/img77.png" data-lightbox="group"><img src="img/img77.png" width="750"height="380" alt=""></a>
+        </div>
+        <br>
+        <p><strong class="marker_yellow">事業承継する</strong>・・・事業承継するための企業の情報を入力するフォームの付いたページです。
+        </p><br>
+        <div class="center">
+          <a href="img/img78.png" data-lightbox="group"><img src="img/img78.png" width="750"height="380" alt=""></a>
+        </div>
+        <br>
+        <p><strong class="marker_yellow">お問い合わせ</strong>・・・お問い合わせフォームの付いたページです。
+        </p><br>
+        <div class="center">
+          <a href="img/img79.png" data-lightbox="group"><img src="img/img79.png" width="750"height="380" alt=""></a>
+        </div>
+        <br>
+        <p><strong class="marker_yellow">サイトマップ</strong>・・・サイトマップの付いたページです。
+        </p><br>
+        <div class="center">
+          <a href="img/img80.png" data-lightbox="group"><img src="img/img80.png" width="750"height="380" alt=""></a>
+        </div>
+        <br><p><strong class="marker_yellow">サイト説明</strong>・・・このページです。
+        </p><br><br>
+  
+      </section>
+  
+      <br><br>
+
     </main>
 
     <!-- 高さ調整 -->
@@ -171,7 +193,7 @@
           <li><h2><a href="introduction.html">サイト説明</a></h2>
           </li>
         </ul>
-        <ul class="list-unstyled">
+        <ul class="">
           <li><h2><a href="sitemap.html">サイトマップ</a></h2>
           </li>
         </ul>
