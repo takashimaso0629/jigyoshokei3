@@ -505,8 +505,8 @@ SP
 /* 900pxより小さいときのcss適用 */
 @media screen and (max-width: 900px) {
   #header img {
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
   }
 
   /* フッター */
@@ -582,8 +582,9 @@ SP
 /* 600pxより小さいときのcss適用 */
 @media screen and (max-width: 600px) {
   #header img {
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
   }
 
   .wrapper {
